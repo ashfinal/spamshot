@@ -5,6 +5,8 @@ Apple Script for automate procedures of iMessage spam reporting
 
 iMessage 垃圾信息报告Apple Script自动化脚本
 
+![spamshot_screenshot](http://ashfinal.qiniudn.com/20141226spamshot_00.png)
+
 ## 安装 ##
 
 所有你需要的只有spamshot.applescript一个文件。
@@ -31,7 +33,7 @@ iMessage 垃圾信息报告Apple Script自动化脚本
 
 你可以对想要举报的某条iMessage 回复 `spam report` 或者 `垃圾举报` 即可实现自动化举报。
 
-** 第2、3种模式你需要添加`信息.app`的辅助控制权限：打开`系统偏好设置`-`安全性与隐私`-`隐私`-`辅助功能`，点加号手动添加`信息.app`。 **
+**第2、3种模式你需要添加`信息.app`的辅助控制权限：打开`系统偏好设置`-`安全性与隐私`-`隐私`-`辅助功能`，点加号手动添加`信息.app`。**
 
 ![imsg_ctrl](http://ashfinal.qiniudn.com/20141226spamshot_imsgctrl.png)
 
