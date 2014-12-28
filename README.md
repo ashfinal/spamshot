@@ -35,9 +35,17 @@ iMessage 垃圾信息报告Apple Script自动化脚本
 
 ## 可能存在的问题 ##
 
+**1.Dropbox相关问题**
+
 如果你在使用dropbox，可能会出现邮件截图缺失的情况。貌似dropbox会监控文件系统变化，把脚本运行过程产生在图片文件夹的临时截图给移走了。。。
 
 因本人不使用dropbox，无法进行测试和进一步改进。使用dropbox仍想尝试正常运行，可以搜索`spamshot.applescript`文件里的`set picPath to (POSIX path of (path to pictures folder)) & "spamshot.png"`，将picPath更改为其它dropbox监控不到的目录(需更改6处)。
+
+**2.非13寸MacBook相关问题**
+
+相同操作系统版本在不同尺寸设备上的菜单竟然不同！这导致脚本模拟点击出错，会“清空”iMessage所有信息。(目前暂仅发现15寸设备上会有此问题)如果确实遇到此现象，请尝试将第299行处的`item 9`改为`item 11`。
+
+![bug_patch](http://ashfinal.qiniudn.com/20141228spamshot_bugpatch.png)
 
 ## Thanks ##
 
